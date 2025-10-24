@@ -10,6 +10,17 @@ public class Person {
         this.designation = designation;
     }
 
+    public void learn(){
+        System.out.println(" is learning  ");
+    }
+    public void wolk(){
+        System.out.println("is wolking");
+    }
+    public void eating(){
+        System.out.println("is eating");
+    }
+
+
     @Override
     public String toString() {
         return "Person{" +

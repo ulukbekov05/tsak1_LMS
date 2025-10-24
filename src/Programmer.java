@@ -10,9 +10,21 @@ public class Programmer extends Person {
         this.companyName = companyName;
     }
 
-    public void get(){
-        System.out.println(name+" is coding at "+designation);
+    public void learn(){
+        System.out.println(name+" is learning   IT " );
+
     }
+    public void wolk(){
+        System.out.println(name+"is wolking work");
+
+    }
+    public void eating(){
+        System.out.println(name+"is eating burger");
+    }
+
+
+
+
 
 
     @Override

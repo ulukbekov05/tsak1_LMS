@@ -10,9 +10,23 @@ public class Dancer extends Person {
         this.groupName = groupName;
     }
 
-    public void getden(){
-        System.out.println(name+"is dancing with group"+groupName);
+    public void learn(){
+        System.out.println(name+" is learning   dancer " );
+
     }
+    public void wolk(){
+        System.out.println(name+"is wolking park");
+
+    }
+    public void eating(){
+        System.out.println(name+"is eating lagman");
+    }
+
+
+
+
+
+
 
     @Override
     public String toString() {

@@ -12,9 +12,19 @@ public class Singer extends Person {
 
     }
 
-    public void ger_singer(){
-        System.out.println(name+" is singing with "+bandName);
+    public void learn(){
+        System.out.println(name+" is learning   singer " );
+
     }
+    public void wolk(){
+        System.out.println(name+"is wolking waiteress");
+
+    }
+    public void eating(){
+        System.out.println(name+"is eating fast wood");
+    }
+
+
 
     @Override
     public String toString() {
